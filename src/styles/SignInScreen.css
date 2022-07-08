@@ -1,0 +1,49 @@
+.signin_screen {
+  max-width: 300px;
+  padding: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.signin_screen > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.signin_screen > form > input {
+  padding: 5px 15px;
+  outline: none;
+  border: none;
+  height: 40px;
+  margin-bottom: 14px;
+  border-radius: 5px;
+}
+
+.signin_screen > form > button {
+  padding: 5px 15px;
+  margin-top: 20px;
+  height: 40px;
+  border: none;
+  font-size: 1rem;
+  color: white;
+  background-color: #e50914;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.signin_screen > form > h1 {
+  text-align: left;
+}
+.signin_screen > form > h4 {
+  margin-top: 30px;
+  text-align: left;
+}
+.signin__gray {
+  color: gray;
+}
+.signin__link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
